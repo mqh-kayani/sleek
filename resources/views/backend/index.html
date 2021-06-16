@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Qamar</title>
+</head>
+<body>
+<div id="list">
+    <h1>{{header}}</h1>
+    <input type="text" v-model="header">
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script>
+    new Vue({
+        el : "#list",
+        data : {
+            header : 'Hello Khan'
+        }
+    })
+</script>
+</body>
+</html>
